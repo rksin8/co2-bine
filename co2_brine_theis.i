@@ -1,5 +1,5 @@
 # Problem description
-# Domain: 200m x 6 mhttps://github.com/rksin8/co2-bine/blob/main/co2_brine_theis.i
+# Domain: 200m x 6 m
 # initial pressure: 5e6 Pa
 # initial xnacl: 0.1
 # left face: CO2 injection
