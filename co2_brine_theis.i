@@ -1,4 +1,4 @@
-# Problem discription
+# Problem description
 # Domain: 200m x 6 mhttps://github.com/rksin8/co2-bine/blob/main/co2_brine_theis.i
 # initial pressure: 5e6 Pa
 # initial xnacl: 0.1
