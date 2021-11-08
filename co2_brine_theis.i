@@ -1,12 +1,12 @@
 # Problem discription
-# Domain: 200m x 6 m
+# Domain: 200m x 6 mhttps://github.com/rksin8/co2-bine/blob/main/co2_brine_theis.i
 # initial pressure: 5e6 Pa
 # initial xnacl: 0.1
 # left face: CO2 injection
 # right face: pressure 1e6
 # Top and Bottom: No flow boundary
-# Capillary pressure: Brook-Coorey: lambda = 2; entry pressure: 1e4 Pa
-# Relative permeability:Brook-Coorey: swr = 0.35 (Swetting), snr = 0.05
+# Capillary pressure: Brooks-Corey: lambda = 2; entry pressure: 1e4 Pa
+# Relative permeability:Brooks-Corey: swr = 0.35 (Swetting), snr = 0.05
 # porosity: 0.26
 # Permeabiltiy: 1e-13
 
