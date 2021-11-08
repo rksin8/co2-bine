@@ -5,6 +5,10 @@
 # left face: CO2 injection
 # right face: pressure 1e6
 # Top and Bottom: No flow boundary
+# Capillary pressure: Brook-Coorey: lambda = 2; entry pressure: 1e4 Pa
+# Relative permeability:Brook-Coorey: swr = 0.35 (Swetting), snr = 0.05
+# porosity: 0.26
+# Permeabiltiy: 1e-13
 
 [Mesh]
   type = GeneratedMesh
@@ -189,8 +193,8 @@
     type = PorousFlowRelativePermeabilityBC
     lambda = 2.0
     phase = 0
-    s_res = 0.30
-    sum_s_res = 0.35
+    s_res = 0.35
+    sum_s_res = 0.4
     nw_phase = false
   []
   [relperm_gas]
@@ -199,7 +203,7 @@
     nw_phase = true
     phase = 1
     s_res = 0.05
-    sum_s_res = 0.35
+    sum_s_res = 0.4
   []
 []
 
